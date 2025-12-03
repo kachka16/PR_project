@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+    scrollbar-gutter: stable;
+}
+html {
+    scrollbar-gutter: stable;
+}
+
+a
+ {
+    text-decoration: none;
+    color:darkgoldenrod;
+}
+
+a:visited
+ {
+    color:darkgoldenrod;
+ }
+
+.image-frame img{
+    height: 150px;
+    width: auto; 
+    padding: 25px 10px 0px 10px;
+    
+}
+
+ .image-frame  {
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    list-style-type: none;
+
+}
+
+.image-frame p{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+.img-title img {
+    width: 100%;
+    height: auto;
+}
+
+.navbar a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: rgb(238, 234, 209);
+}
+.navbar a:hover{
+   float:left;
+}
