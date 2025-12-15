@@ -3,41 +3,174 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dog</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contact</title>
 </head>
 <body>
-   <ul class = "menu">
-       <li><img src="images/paw-print.png"></li>
-        <li><a href="index.html">Головна</a></li>
-        <li><a href="about.html">Про нас</a></li>
-        <li><a href="dostavka.html">Доставка</a></li>
-        <li><a href="contact.html">Контакти</a></li>
+    <nav class = "navbar">
+    <ul class = "navbar-text">
+         <li class = "menu">
+        <a href="index.html">Головна</a>
+        <a href="about.html">Про нас</a>
+        <a href="contact.html">Контакти</a>
+        </li>
+
+        <li class = "img-nav">
+        <img src="images/heart.png">
+        <img src="images/user.png">
+        <div class ="cart-icon">
+        <img src="images/cart.png">
+        <span>0</span>
+        </div>
+        </li>
     </ul>
-    <style>
-.menu{
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    list-style: none;
-}
-.menu a{
-    display: inline;
-    justify-content: center; 
-    align-items: center; 
-    padding: 0px 10px 0px 10px;
-}
+    </nav>
+    <div class = "search-bar">
+            <h2>Товари для собак</h2>
+        <input type = "text" placeholder="Пошук...">
+    </div>
+    <div class = "nav-items">
+    <ul>
+        <li><a href="dog.html">Собакам</a></li>
+        <li><a href="cat.html">Котам</a></li>
+        <li><a href="hamster.html">Хом'яки</a></li>
+        <li><a href="parrot.html">Папугам</a> </li>
+      </ul>
+    </div>
+    <div class = "container-items">
+        <div class = "column" id = "col1">
+            <img src="images/items1_dog.png" class = "card-image">
+            <div class ="card-body" data-id="01">
+                <h3 class = "name-item">Корм для собак Savory Small Breed</h3>
+            <div class = "item-details">
+                <div class = "item-counter">
+                    <div class="items_control" data-action = "minus">-</div>
+                    <div class ="items_current" data-counter>1</div>
+                    <div class ="items_control" data-action="plus">+</div>
+                </div>
+              <div class = "price">
+                <div class="item-price">2500грн.</div>
+                <div class="item-weight">8кг.</div>
+             </div>
+        </div>
+        </div>
+         <button type = "button" class ="button-cart">Додати</button>
+        </div>
+        
 
-a
- {
-    text-decoration: none;
-    color:darkgoldenrod;
-}
+        <div class = "column" id = "col2">
+            <img src="images/items2_dog.png" class = "card-image">
+            <div class ="card-body" data-id="01">
+                <h3 class = "name-item">Корм для собак Brit Care Mini GF Sensitive</h3>
+            <div class = "item-details">
+                <div class = "item-counter">
+                    <div class="items_control" data-action = "minus">-</div>
+                    <div class ="items_current" data-counter>1</div>
+                    <div class ="items_control" data-action="plus">+</div>
+                </div>
+              <div class = "price">
+                <div class="item-price">352грн.</div>
+                <div class="item-weight">1,5кг.</div>
+             </div>
+        </div>
+        </div>
+         <button type = "button" class ="button-cart">Додати</button>
+        </div>
 
-a:visited
- {
-    color:darkgoldenrod;
-    font-family:'Times New Roman', Times, serif;
- }
-    </style>
+
+         <div class = "column" id = "col3">
+            <img src="images/items3_dog.png" class = "card-image">
+            <div class ="card-body" data-id="01">
+                <h3 class = "name-item">Корм для собак Royal Canin Poodle Adult</h3>
+            <div class = "item-details">
+                <div class = "item-counter">
+                    <div class="items_control" data-action = "minus">-</div>
+                    <div class ="items_current" data-counter>1</div>
+                    <div class ="items_control" data-action="plus">+</div>
+                </div>
+              <div class = "price">
+                <div class="item-price">620грн.</div>
+                <div class="item-weight">1,5кг.</div>
+             </div>
+        </div>
+        </div>
+         <button type = "button" class ="button-cart">Додати</button>
+        </div>
+        
+
+        <div class = "column" id = "col4">
+            <img src="images/items4_dog.png" class = "card-image">
+            <div class ="card-body" data-id="01">
+                <h3 class = "name-item">Trixie Denta Fun Ball іграшка для собак</h3>
+            <div class = "item-details">
+                <div class = "item-counter">
+                    <div class="items_control" data-action = "minus">-</div>
+                    <div class ="items_current" data-counter>1</div>
+                    <div class ="items_control" data-action="plus">+</div>
+                </div>
+              <div class = "price">
+                <div class="item-price">87грн.</div>
+                <div class="item-weight">5см</div>
+             </div>
+        </div>
+        </div>
+         <button type = "button" class ="button-cart">Додати</button>
+        </div>
+
+
+         <div class = "column" id = "col5">
+            <img src="images/items5_dog.png" class = "card-image">
+            <div class ="card-body" data-id="01">
+                <h3 class = "name-item">Pet Fun Бобріна Латина іграшка для собак</h3>
+            <div class = "item-details">
+                <div class = "item-counter">
+                    <div class="items_control" data-action = "minus">-</div>
+                    <div class ="items_current" data-counter>1</div>
+                    <div class ="items_control" data-action="plus">+</div>
+                </div>
+              <div class = "price">
+                <div class="item-price">480грн.</div>
+                <div class="item-weight">40см</div>
+             </div>
+        </div>
+        </div>
+         <button type = "button" class ="button-cart">Додати</button>
+        </div>
+        
+
+        <div class = "column" id = "col6">
+            <img src="images/items6_dog.png" class = "card-image">
+            <div class ="card-body" data-id="01">
+                <h3 class = "name-item">Pet Fun іграшка для собак кістка</h3>
+            <div class = "item-details">
+                <div class = "item-counter">
+                    <div class="items_control" data-action = "minus">-</div>
+                    <div class ="items_current" data-counter>1</div>
+                    <div class ="items_control" data-action="plus">+</div>
+                </div>
+              <div class = "price">
+                <div class="item-price">200грн.</div>
+                <div class="item-weight">16х7,8х3,9см</div>
+             </div>
+        </div>
+        </div>
+         <button type = "button" class ="button-cart">Додати</button>
+        </div>
+    </div>
+
 </body>
+<script>
+    window.addEventListener('click',function(event){
+      if (event.target.dataset.action === 'plus' || event.target.dataset.action === 'minus') {
+        const counterWrapper = event.target.closest('.item-counter');
+        const counter = counterWrapper.querySelector('[data-counter]');
+        if(event.target.dataset.action==='plus'){
+            counter.innerText=++counter.innerText;
+        }
+        if(event.target.dataset.action==='minus' && counter.innerText > 1){
+            counter.innerText=--counter.innerText;
+        }
+    }
+    });
+</script>
 </html>

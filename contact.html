@@ -8,13 +8,69 @@
 </head>
 <body>
    <nav class = "navbar">
-    <ul class>
-       <li><img src="images/paw-print.png"></li>
-        <li><a href="index.html">Головна</a></li>
-        <li><a href="about.html">Про нас</a></li>
-        <li><a href="dostavka.html">Доставка</a></li>
-        <li><a href="contact.html">Контакти</a></li>
+    <ul class = "navbar-text">
+         <li class = "menu">
+        <a href="index.html">Головна</a>
+        <a href="about.html">Про нас</a>
+        <a href="contact.html">Контакти</a>
+        </li>
+
+        <li class = "img-nav">
+        <img src="images/heart.png">
+        <img src="images/user.png">
+        <div class ="cart-icon">
+        <img src="images/cart.png">
+        <span>0</span>
+        </div>
+        </li>
     </ul>
     </nav>
+    <div class ="img-title">
+    <img src="images/dog_title2.png" >
+    </div>
+ <div id = "all">
+    <h1 align = "center">Зв'язатися з нами</h1>
+    <form id = "form-contact">
+        <div class = "place-form">
+         <p>Ваше ім'я</p>
+        <input type ="text" id = "firstname" placeholder="Введіть ім'я">
+        <p>Ваша пошта</p>
+        <input type = "email" id ="email_petshop" placeholder="Введіть пошту">
+        <p>Ваш телефон</p>
+        <input type = "tel" id = "phone" placeholder="Введіть номер телефону" value = "+380">
+        <p>Коментарій</p>
+        <input type ="text" id = "comment" placeholder="Введіть текст">
+        <input type = "submit" id = "submit_petshop" value = "Надіслати">
+    </div>
+    </form>
+    </div>
+
+    <div class = "text-contact">
+        <ul class="contact">
+            <li class="title-contact" align = "center"><img src="images/store.png" > Магазин</li>
+            <li>вул. Юліана Матвійчука, 83а</li>
+            </ul>  
+        <ul class = "contact">
+         <li class="title-contact" align = "center"><img src="images/phone.png" >Зворотній зв'язок</li>
+         <li>email_petshop@gmail.com</li>
+          <li>+380-000-000-000</li>
+        </ul>
+        <ul class = "contact">
+         <li class="title-contact" align = "center"><img src="images/delivery.png" >Доставка</li>
+          <li>Доставка від 599грн безкоштовна</li>
+          <li>Висилаємо протягом 3-х днів</li>
+        </ul>
+            <ul class="contact">
+            <li class="title-contact" align = "center"><img src="images/clock.png" >Час роботи</li>
+            <li>Пн: 09:00 - 16:00</li>
+            <li>Вт: 09:00 - 16:00</li>
+            <li>Ср: 09:00 - 16:00</li>
+            <li>Чт: 09:00 - 16:00</li>
+            <li>Пт: 09:00 - 16:00</li>
+            <li>Сб: 10:00 - 15:00</li>
+            <li>Вс: 10:00 - 15:00</li>
+            </ul>
+        
+    </div>
 </body>
 </html>
