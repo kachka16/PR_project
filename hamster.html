@@ -7,24 +7,172 @@
     <title>Hamster</title>
 </head>
 <body>
-    <nav class = "navbar">
+     <nav class = "navbar">
     <ul class = "navbar-text">
          <li class = "menu">
         <a href="index.html">Головна</a>
         <a href="about.html">Про нас</a>
         <a href="contact.html">Контакти</a>
         </li>
-
         <li class = "img-nav">
         <img src="images/heart.png">
         <img src="images/user.png">
         <div class ="cart-icon">
-        <img src="images/cart.png">
-        <span>0</span>
+        <img src="images/icon-cart.png">
+        <span class = "number-cart">0</span>
         </div>
         </li>
     </ul>
     </nav>
     
+     <div class = "cartTab">
+      <h1>Корзина</h1>
+      <div class ="listCart">
+        <h3 class = "cart-empty" data-cart-empty>Кошик порожній</h3>
+           </div>
+           <div class ="cart-total">
+            <span>Всього:</span>
+      <span class="total-price">0</span>
+      <span>грн.</span>
+      </div>
+      <div class ="btn">
+        <button class ="close">Закрити</button>
+        <button class="chechOut">Замовити</button>
+      </div>
+    </div>
+
+    <div class = "nav-items-location">
+    <div class = "nav-items">
+    <ul class = "nav-items-ul">
+        <h3>Навігація</h3>
+        <li><a href="dog.html">Собакам</a></li>
+        <li><a href="cat.html">Котам</a></li>
+        <li><a href="hamster.html">Гризунам</a></li>
+        <li><a href="parrot.html">Папугам</a> </li>
+      </ul>
+    </div>
+    </div>
+
+    <div class = "container-items">
+        <div class = "card" data-id= "col-hamster01">
+            <img src="images/items1_hamster.png" class = "card-image">
+            <div class ="card-body">
+                <h3 class = "name-item">Корм для хом'яків Special One</h3>
+            <div class = "item-details">
+                <div class = "item-counter">
+                    <div class="items_control" data-action = "minus">-</div>
+                    <div class ="items_current" data-counter>1</div>
+                    <div class ="items_control" data-action="plus">+</div>
+                </div>
+              <div class = "price">
+                <div class="item-price">122грн</div>
+                <div class="item-weight">500г.</div>
+             </div>
+        </div>
+        </div>
+         <button data-cart type = "button" class ="button-cart">Додати</button>
+        </div>
+        
+
+        <div class = "card" data-id= "col-hamster02">
+            <img src="images/items2_hamster.png" class = "card-image">
+            <div class ="card-body" data-id="01">
+                <h3 class = "name-item">Корм для кроликів Vitakraft «Emotion Beauty Selection»</h3>
+            <div class = "item-details">
+                <div class = "item-counter">
+                    <div class="items_control" data-action = "minus">-</div>
+                    <div class ="items_current" data-counter>1</div>
+                    <div class ="items_control" data-action="plus">+</div>
+                </div>
+              <div class = "price">
+                <div class="item-price">1136грн</div>
+                <div class="item-weight">1,5кг.</div>
+             </div>
+        </div>
+        </div>
+         <button data-cart type = "button" class ="button-cart">Додати</button>
+        </div>
+
+
+         <div class = "card" data-id= "col-hamster03">
+            <img src="images/items3_hamster.png" class = "card-image">
+            <div class ="card-body" data-id="01">
+                <h3 class = "name-item">Корм для морських свинок Vitapol Karmeo Premium</h3>
+            <div class = "item-details">
+                <div class = "item-counter">
+                    <div class="items_control" data-action = "minus">-</div>
+                    <div class ="items_current" data-counter>1</div>
+                    <div class ="items_control" data-action="plus">+</div>
+                </div>
+              <div class = "price">
+                <div class="item-price">155грн</div>
+                <div class="item-weight">500г.</div>
+             </div>
+        </div>
+        </div>
+         <button data-cart type = "button" class ="button-cart">Додати</button>
+        </div>
+        
+
+        <div class = "card" data-id= "col-hamster11">
+            <img src="images/items4_hamster.png" class = "card-image">
+            <div class ="card-body" data-id="01">
+                <h3 class = "name-item">Іграшка для гризуна MasterZoo кубики на мотузці</h3>
+            <div class = "item-details">
+                <div class = "item-counter">
+                    <div class="items_control" data-action = "minus">-</div>
+                    <div class ="items_current" data-counter>1</div>
+                    <div class ="items_control" data-action="plus">+</div>
+                </div>
+              <div class = "price">
+                <div class="item-price">99грн</div>
+                <div class="item-weight">3х3см</div>
+             </div>
+        </div>
+        </div>
+         <button data-cart type = "button" class ="button-cart">Додати</button>
+        </div>
+
+
+         <div class = "card" data-id= "col-hamster12">
+            <img src="images/items5_hamster.png" class = "card-image">
+            <div class ="card-body" data-id="01">
+                <h3 class = "name-item">Іграшка для гризуна MasterZoo гойдалка</h3>
+            <div class = "item-details">
+                <div class = "item-counter">
+                    <div class="items_control" data-action = "minus">-</div>
+                    <div class ="items_current" data-counter>1</div>
+                    <div class ="items_control" data-action="plus">+</div>
+                </div>
+              <div class = "price">
+                <div class="item-price">145грн</div>
+                <div class="item-weight">19х7см</div>
+             </div>
+        </div>
+        </div>
+         <button data-cart type = "button" class ="button-cart">Додати</button>
+        </div>
+        
+
+       <div class = "card" data-id= "col-hamster13">
+            <img src="images/items6_hamster.png" class = "card-image">
+            <div class ="card-body" data-id="01">
+                <h3 class = "name-item">Іграшка для гризунів Trixie Валик з брязкальцем</h3>
+            <div class = "item-details">
+                <div class = "item-counter">
+                    <div class="items_control" data-action = "minus">-</div>
+                    <div class ="items_current" data-counter>1</div>
+                    <div class ="items_control" data-action="plus">+</div>
+                </div>
+              <div class = "price">
+                <div class="item-price">85грн</div>
+                <div class="item-weight">5см/d=3,5см</div>
+             </div>
+        </div>
+        </div>
+         <button data-cart type = "button" class ="button-cart">Додати</button>
+        </div>
+    </div>
+      <script src="js/scripts2.js"></script>
 </body>
 </html>
