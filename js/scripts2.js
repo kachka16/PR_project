@@ -29,6 +29,16 @@
                 counter: parseInt(card.querySelector('[data-counter]').innerText),
             };
             const totalPrice = productInfo.price* productInfo.counter;
+            const itemInCart = cartWrapper.querySelector(`.card[data-id="${productInfo.id}"]`);
+            if(itemInCart){
+                const counterEL = itemInCart.querySelector('[data-counter]');
+                priceEl = itemInCart.querySelector('.item-price');
+                const counterElement = parseInt(counterEL.innerText)+ productInfo.counter;
+                counterEL.innerHTML = counterElement;
+                itemInCart.dataset.total = counterElement * productInfo.price;
+                priceEl.innerText = `${counterElement * productInfo.price}грн.`
+            }
+            else{
             const cartItemHTML = `<div class = "card" data-id= "${productInfo.id}" data-total="${totalPrice}">
                 <img src= "${productInfo.imgSrc}">
                 <h3 class =  "name-item">${productInfo.title}</h3>
@@ -37,9 +47,11 @@
                 <img src ="images/cancle.png" class = "cancle-img" data-cancle>
          </div>`;
            cartWrapper.insertAdjacentHTML('beforeend',cartItemHTML);
+            }
            calcCartPrice1();
            toggleCartStatus();
            calculateNumber();
+            
         }
     });
 
